@@ -36,12 +36,12 @@ const Footer = () => {
             <div className='flex flex-col items-center justify-center'>
                 <h3 className='text-3xl font-semibold'>Contact</h3>
                 <ul className='mt-8 flex flex-col gap-5'>
-                    <li className='w-48 text-center'>2715 Ash Dr. San Jose, South Dakota 83475</li>
+                    <li className='w-48 text-center'>17 5th Cl, Jerry Hansen Street, Solomon Close Dansoman, Accra,Ghana</li>
                     <div></div>
                 </ul>
             </div>
         </div>
-        <h3 className='lg:self-start text-xs flex flex-col'>2021 All Right Reserved <span>Developed By Mersharch Demenya</span></h3>
+        <h3 className='lg:self-start text-xs flex flex-col'>2022 All Right Reserved <span>Developed By Mersharch Demenya</span></h3>
     </div>
   )
 }
