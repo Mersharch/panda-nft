@@ -28,7 +28,7 @@ const LAcard = (props) => {
         <div className='flex pt-5 justify-between w-full items-center'>
             <div className='flex gap-4 items-center'>
                 <img src={fire} alt="" className='w-5 h-5' />
-                <h3 className='text-xl lg:text-lg xl:text-xl font-semibold'>05:12:07:26</h3>
+                <h3 className='text-xl lg:text-lg xl:text-xl font-semibold'>{props.time}</h3>
             </div>
             <button className='rounded-xl px-8 sm:px-7 md:px-12 lg:px-8 xl:px-12 lg:py-1 xl:py-2 py-2 text-3xl sm:text-xl lg:text-2xl font-semibold cursor-pointer bg-[#1E50FF] hover:bg-[#1e50ff]/30 duration-500'>Bid</button>
         </div>

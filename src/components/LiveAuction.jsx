@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import LAcard from './cards/LAcard'
 import glassStatue from '../assets/glassStatue.png'
 import avatar1 from '../assets/avatar.png'
@@ -29,6 +29,19 @@ const LiveAuction = () => {
       'price': 4.89 
     },
   ]
+
+  const [time, setTime] = useState()
+
+  useEffect(() => {
+    
+    setInterval(() => {
+      const date = new Date();
+      setTime(date.toLocaleTimeString())
+    }, 1000);
+    
+  }, [])
+  
+  
   return (
     <div className='mt-10 md:mt-20 w-full flex flex-col items-center justify-center'>
         <div className=' px-8 w-full flex items-center justify-center lg:justify-between'>
@@ -46,6 +59,7 @@ const LiveAuction = () => {
               avatar={product.avatar}
               artist={product.artist}
               price={product.price}
+              time={time}
             />)
           })}
 
