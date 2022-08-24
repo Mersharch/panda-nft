@@ -9,7 +9,7 @@ const CTA = () => {
         <p className='text-base text-[#ADB9C7] text-center my-5 md:w-[400px] lg:w-[400px] xl:w-[550px]'>
             We have a large scale group to support each other in this game, Join us to get the news as soon as possible and follow our latest announcements!
         </p>
-        <button className='w-72 rounded-2xl hover:text-lg hover:px-2 hover:py-1 duration-500 bg-white text-[#1E50FF] px-5 py-4 font-semibold text-2xl'>Join Community Now</button>
+        <button className='w-72 rounded-2xl hover:text-lg  duration-500 bg-white text-[#1E50FF] px-5 py-4 font-semibold text-2xl'>Join Community Now</button>
     </div>
   )
 }

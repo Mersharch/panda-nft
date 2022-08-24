@@ -43,17 +43,17 @@ const Navbar = () => {
 
             <nav>
                 <ul className='flex flex-col p-4'>
-                    <li className='flex text-xl py-4 group'><AiFillHome size={25} className='mr-4'/><a className='duration-500 group-hover:text-[#1e50ff]' href='#'>Home</a></li>
+                    <li className='flex text-xl py-4 group'><AiFillHome size={25} className='mr-4 duration-500 group-hover:fill-[#1e50ff]'/><a className='duration-500 group-hover:text-[#1e50ff]' href='#'>Home</a></li>
 
-                    <li className='flex text-xl py-4 group'><RiCompassDiscoverFill size={25} className='mr-4'/><a className='duration-500 group-hover:text-[#1e50ff]' href='#'>Discover</a></li>
+                    <li className='flex text-xl py-4 group'><RiCompassDiscoverFill size={25} className='mr-4 duration-500 group-hover:fill-[#1e50ff]'/><a className='duration-500 group-hover:text-[#1e50ff]' href='#'>Discover</a></li>
 
-                    <li className='flex text-xl py-4 group'><SiReadthedocs size={25} className='mr-4'/><a className='duration-500 group-hover:text-[#1e50ff]' href='#'>Docs</a></li>
+                    <li className='flex text-xl py-4 group'><SiReadthedocs size={25} className='mr-4 duration-500 group-hover:fill-[#1e50ff]'/><a className='duration-500 group-hover:text-[#1e50ff]' href='#'>Docs</a></li>
                     
-                    <li className='flex text-xl py-4 group'><FaMicroblog size={25} className='mr-4'/><a className='duration-500 group-hover:text-[#1e50ff]' href='#'>Blog</a></li>
+                    <li className='flex text-xl py-4 group'><FaMicroblog size={25} className='mr-4 duration-500 group-hover:fill-[#1e50ff]'/><a className='duration-500 group-hover:text-[#1e50ff]' href='#'>Blog</a></li>
 
-                    <li className='flex text-xl py-4 group'><FaInfoCircle size={25} className='mr-4'/><a className='duration-500 group-hover:text-[#1e50ff]' href='#'>About Us</a></li>
+                    <li className='flex text-xl py-4 group'><FaInfoCircle size={25} className='mr-4 duration-500 group-hover:fill-[#1e50ff]'/><a className='duration-500 group-hover:text-[#1e50ff]' href='#'>About Us</a></li>
 
-                    <li className='flex text-xl py-4 group'><MdAddCall size={25} className='mr-4'/><a className='duration-500 group-hover:text-[#1e50ff]' href='#'>Contact Us</a></li>
+                    <li className='flex text-xl py-4 group'><MdAddCall size={25} className='mr-4 duration-500 group-hover:fill-[#1e50ff]'/><a className='duration-500 group-hover:text-[#1e50ff]' href='#'>Contact Us</a></li>
                 </ul>
             </nav>
         </div>
