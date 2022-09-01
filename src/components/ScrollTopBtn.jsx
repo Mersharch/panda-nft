@@ -22,7 +22,7 @@ const ScrollTopBtn = () => {
     }
   return (
     <div className='fixed bottom-[15px] right-[20px]'>
-        {show && <div onClick={() => ScrollToTop()} className='w-min p-1 border border-[#1E50FF] rounded-full cursor-pointer hover:border-white'><FaAngleDoubleUp size={35} color="#1E50FF"/></div> }
+        {show && <div onClick={() => ScrollToTop()} className='hidden md:block w-min p-1 border border-[#1E50FF] rounded-full cursor-pointer hover:border-white'><FaAngleDoubleUp size={35} color="#1E50FF"/></div> }
     </div>
   )
 }
