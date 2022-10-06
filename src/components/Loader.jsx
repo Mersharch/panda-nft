@@ -5,7 +5,7 @@ const Loader = ({loading}) => {
   return (
     <div className='bg-[#02050E] h-screen flex items-center justify-center'>
         <HashLoader
-            size={150}
+            size={75}
             color='white'
             loading={loading}
         />

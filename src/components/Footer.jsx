@@ -15,28 +15,28 @@ const Footer = () => {
                 </p>
             </div>
             <div className='flex flex-col items-center'>
-                <h3 className='text-3xl font-semibold lg:text-left'>Resources</h3>
+                <h3 className='text-3xl font-semibold'>Resources</h3>
                 <ul className='mt-8 flex flex-col gap-5'>
-                    <li className='text-center lg:text-left'>Help Center</li>
-                    <li className='text-center lg:text-left'>Platform Status</li>
-                    <li className='text-center lg:text-left'>Partners</li>
-                    <li className='text-center lg:text-left'>Gas-Free Marketplace</li>
-                    <li className='text-center lg:text-left'>Blog</li>
+                    <li className='text-center'>Help Center</li>
+                    <li className='text-center'>Platform Status</li>
+                    <li className='text-center'>Partners</li>
+                    <li className='text-center'>Gas-Free Marketplace</li>
+                    <li className='text-center'>Blog</li>
                 </ul>
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <h3 className='text-3xl font-semibold text-left'>Company</h3>
-                <ul className='mt-8 flex flex-col gap-5'>
+                <ul className='mt-8 flex flex-col gap-5 lg:text-center'>
                     <li className='text-center lg:text-left'>Our Team</li>
                     <li className='text-center lg:text-left'>About Us</li>
                     <li className='text-center lg:text-left'>Contact Us</li>
-                    <li className='text-center lg:text-left'>Career</li>
+                    <li className='text-center'>Career</li>
                 </ul>
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <h3 className='text-3xl font-semibold'>Contact</h3>
                 <ul className='mt-8 flex flex-col gap-5'>
-                    <li className='w-48 text-center'>17 5th Cl, Jerry Hansen Street, Solomon Close Dansoman, Accra,Ghana</li>
+                    <li className='w-48 text-center lg:text-center'>17 5th Cl, Jerry Hansen Street, Solomon Close Dansoman, Accra,Ghana</li>
                     <div></div>
                 </ul>
             </div>
