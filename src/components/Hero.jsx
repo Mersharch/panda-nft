@@ -11,7 +11,7 @@ const Hero = () => {
         {/*TOP*/}
         <div className='md:flex justify-between items-center'>
             <h1 className='text-[30px] leading-[60px] text-center md:text-[30px] lg:text-5xl xl:text-[64px] lg:leading-[80px] font-bold'>
-                Discover a New Era of Crypto Currency
+                Discover a New Era of <span className='text-[#1E50FF]'>Crypto Currency</span>
             </h1>
             <div>
                 <p className='text-base text-[#ADB9C7] text-center my-5 md:w-[400px] md:text-left lg:w-[400px] xl:w-[550px]'>

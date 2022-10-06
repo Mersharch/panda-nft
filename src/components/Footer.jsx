@@ -41,7 +41,7 @@ const Footer = () => {
                 </ul>
             </div>
         </div>
-        <h3 className='lg:self-start text-xs flex flex-col'>2022 All Right Reserved <span>Developed By Mersharch Demenya</span></h3>
+        <h3 className='lg:self-start text-xs flex flex-col'>2022 All Right Reserved <span>Developed By Mershack Demenya</span></h3>
     </div>
   )
 }
