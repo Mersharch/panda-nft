@@ -19,7 +19,7 @@ const CnS = () => {
   ]
   return (
     <div className='mt-10 md:mt-20 w-full flex flex-col gap-20 items-center justify-center'>
-        <h2 className='text-[30px] leading-[60px] text-center md:text-[30px] lg:text-5xl xl:text-[40px] xl:w-[700px] lg:leading-[80px] font-semibold'>Create And Sell Your NFTs</h2>
+        <h2>Create And Sell Your NFTs</h2>
 
         {/* CARDS */}
         <div className='flex flex-col mt-0 gap-10 xl:gap-36 sm:grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3'>

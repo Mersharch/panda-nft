@@ -16,8 +16,8 @@ const Featured = () => {
   return (
     <div className='mt-10 md:mt-20 w-full flex flex-col items-center justify-center'>
         <div className=' px-8 w-full flex items-center justify-center lg:justify-between'>
-            <h2 className='text-[30px] leading-[60px] text-center md:text-[30px] lg:text-5xl xl:text-[40px] lg:leading-[80px] font-semibold'>Featured Artists</h2>
-            <button className='border hover:text-lg duration-500 border-[#1E50FF] rounded-xl p-2 cursor-pointer hidden lg:block'>Get Started</button>
+            <h2>Featured Artists</h2>
+            <button className='hover:text-lg duration-500 hidden lg:block'>Get Started</button>
         </div>
 
         {/* CARDS */}
@@ -33,7 +33,7 @@ const Featured = () => {
             })}
         </div>
         
-        <button className='border border-[#1E50FF] hover:text-lg duration-500 text-xl mt-5 rounded-xl p-2 cursor-pointer lg:hidden'>Get Started</button>
+        <button className='hover:text-lg duration-500 lg:hidden'>Get Started</button>
     </div>
   )
 }

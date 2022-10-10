@@ -33,7 +33,7 @@ const Navbar = () => {
                 </ul>
             </nav>
         {/* RIGHT */}
-            <button className='border border-[#1E50FF] rounded-xl p-2 cursor-pointer hover:text-lg duration-500'>Connect Wallet</button>
+            <button className=' hover:text-lg duration-500'>Connect Wallet</button>
 
         {/* MOBILE MENU */}
         <div className={nav ? 'fixed top-0 left-0 w-full z-20 bg-slate-900 duration-500 block' : 'hidden'}>
