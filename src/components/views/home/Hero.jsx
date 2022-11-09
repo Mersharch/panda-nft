@@ -1,13 +1,13 @@
 import React from 'react'
 import { BsArrowUpRight } from "react-icons/bs";
-import herobird1 from '../assets/herobird1.png';
-import herobird2 from '../assets/herobird2.png';
-import herobird3 from '../assets/herobird3.png';
+import herobird1 from '../../../assets/herobird1.png';
+import herobird2 from '../../../assets/herobird2.png';
+import herobird3 from '../../../assets/herobird3.png';
 
 
 const Hero = () => {
   return (
-    <div className='p-2 mt-10 md:mt-20 w-full'>
+    <div className='p-2 mt-10 md:mt-20 w-[96.5%] px-5'>
         {/*TOP*/}
         <div className='md:flex justify-between items-center'>
             <h1>

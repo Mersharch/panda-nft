@@ -2,7 +2,7 @@ import React from 'react'
 
 const CTA = () => {
   return (
-    <div className='flex flex-col mt-10 md:mt-20 w-full py-8 self-center items-center justify-center bg-[#1E50FF] rounded-2xl'>
+    <div className='flex flex-col mt-10 mx-5 md:mt-20 w-[96.5%] py-8 self-center items-center justify-center bg-[#1E50FF] rounded-2xl'>
         <h2>
             Create Your Own NFT!
         </h2>

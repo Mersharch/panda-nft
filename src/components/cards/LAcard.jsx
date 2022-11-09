@@ -4,7 +4,7 @@ import fire from '../../assets/fire.png'
 
 const LAcard = (props) => {
   return (
-    <div className='border border-[#1E50FF] p-5 max-w-xs rounded-2xl md:w-96 lg:w-72 xl:w-96 flex flex-col items-center justify-center'>
+    <div className='border border-[#1E50FF] p-5 max-w-xs rounded-2xl md:w-96 lg:w-72 xl:w-96 flex flex-col items-center justify-center shadow hover:shadow-md hover:shadow-slate-600'>
         <div>
             <img src={props.productImg} alt="" className='w-full h-full' />
             <div className='w-min px-2 py-2 relative left-56 bottom-[275px] sm:left-48 md:left-56 md:bottom-[320px] lg:bottom-[90%] lg:left-[195px] xl:bottom-[95%] xl:left-56 z-10 rounded-full bg-slate-50'>

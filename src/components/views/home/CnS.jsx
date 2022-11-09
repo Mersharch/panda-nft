@@ -1,5 +1,6 @@
 import React from 'react'
-import CnScard from './cards/CnScard'
+import CnsCard from '../../cards/CnScard'
+
 
 const CnS = () => {
 
@@ -18,14 +19,14 @@ const CnS = () => {
     },
   ]
   return (
-    <div className='mt-10 md:mt-20 w-full flex flex-col gap-20 items-center justify-center'>
+    <div className='mt-10 md:mt-20 w-[96.5%] px-5 flex flex-col gap-20 items-center justify-center'>
         <h2>Create And Sell Your NFTs</h2>
 
         {/* CARDS */}
         <div className='flex flex-col mt-0 gap-10 xl:gap-36 sm:grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3'>
             {cnsCard.map (({main, desc}) => {
               return(
-                <CnScard
+                <CnsCard
                   main={main}
                   description={desc}
                 />

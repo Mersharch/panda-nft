@@ -3,7 +3,7 @@ import logo from '../assets/Panda=Esport-1.png'
 
 const Footer = () => {
   return (
-    <div className='flex flex-col items-center justify-center mt-10 md:mt-20 gap-10 p-0'>
+    <footer className='flex flex-col items-center justify-center mt-10 md:mt-20 gap-10 p-0'>
         <div className='flex flex-col items-center justify-center md:items-start md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10'>
             <div className='flex flex-col items-center justify-center'>
                 <div className='flex flex-row gap-2 items-center'>
@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
         </div>
         <h3 className='lg:self-start text-xs flex flex-col'>2022 All Right Reserved <span>Developed By Mershack Demenya</span></h3>
-    </div>
+    </footer>
   )
 }
 

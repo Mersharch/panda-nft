@@ -1,11 +1,11 @@
 import React from 'react'
-import FAcard from './cards/FAcard'
-import artist from '../assets/artist.png'
-import artist2 from '../assets/artist2.png'
-import artist3 from '../assets/artist3.png'
-import artist4 from '../assets/artist4.png'
-import artist5 from '../assets/artist5.png'
-import artist6 from '../assets/artist6.png'
+import FAcard from '../../cards/FAcard'
+import artist from '../../../assets/artist.png'
+import artist2 from '../../../assets/artist2.png'
+import artist3 from '../../../assets/artist3.png'
+import artist4 from '../../../assets/artist4.png'
+import artist5 from '../../../assets/artist5.png'
+import artist6 from '../../../assets/artist6.png'
 
 const Featured = () => {
 
@@ -14,7 +14,7 @@ const Featured = () => {
     {'fName': 'Jacob Jones', 'fPrice': 214.2, 'fImg': `${artist4}`, }, {'fName': 'Ralph Edwards', 'fPrice': 214.2, 'fImg': `${artist5}`, }, {'fName': 'Arlene McCoy', 'fPrice': 214.2, 'fImg': `${artist6}`, },
   ]
   return (
-    <div className='mt-10 md:mt-20 w-full flex flex-col items-center justify-center'>
+    <div className='mt-10 md:mt-20 w-[96.5%] px-5 flex flex-col items-center justify-center'>
         <div className=' px-8 w-full flex items-center justify-center lg:justify-between'>
             <h2>Featured Artists</h2>
             <button className='hover:text-lg duration-500 hidden lg:block'>Get Started</button>

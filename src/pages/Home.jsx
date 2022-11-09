@@ -1,21 +1,41 @@
 import React from 'react'
-import CnS from "../components/CnS";
-import CTA from "../components/CTA";
-import Featured from "../components/Featured";
-import Hero from "../components/Hero";
-import LiveAuction from "../components/LiveAuction";
-import Partners from "../components/Partners";
+import Hero from '../components/views/home/Hero'
+import Partners from '../components/views/home/Partners'
+import CnS from '../components/views/home/CnS'
+import LiveAuction from '../components/views/home/LiveAuction'
+import CTA from '../components/views/home/CTA'
+import Featured from '../components/views/home/Featured'
+import { useState, useEffect } from "react";
+import Loader from "../components/Loader";
+
 
 
 const Home = () => {
+
+  const [loading, setLoading] = useState(false)
+
+  useEffect(() => {
+    setLoading(true);
+
+    setTimeout(()=>{
+      setLoading(false)
+    }, 3000);
+
+  }, []);
+
   return (
     <div>
-        <Hero/>
-        <Partners/>
-        <CnS/>
-        <LiveAuction/>
-        <Featured/>
-        <CTA/>
+      {loading ? <Loader loading={loading}/>
+        :
+        <div>
+          <Hero/>
+          <Partners/>
+          <CnS/>
+          <LiveAuction/>
+          <Featured/>
+          <CTA/>
+        </div>
+      }
     </div>
   )
 }

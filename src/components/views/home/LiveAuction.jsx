@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from 'react'
-import LAcard from './cards/LAcard'
-import glassStatue from '../assets/glassStatue.png'
-import avatar1 from '../assets/avatar.png'
-import boneChain from '../assets/boneChain.png'
-import sheCat from '../assets/sheCat.png'
+import LAcard from '../../cards/LAcard'
+import glassStatue from '../../../assets/glassStatue.png'
+import avatar1 from '../../../assets/avatar.png'
+import boneChain from '../../../assets/boneChain.png'
+import sheCat from '../../../assets/sheCat.png'
 
 const LiveAuction = () => {
   const laProducts = [
@@ -50,7 +50,7 @@ const LiveAuction = () => {
         </div>
 
         {/* CARDS */}
-        <div className='flex py-14 flex-col sm:grid sm:grid-cols-2 gap-10 xl:gap-36 md:grid md:grid-cols-2 lg:grid-cols-3'>
+        <div className='flex py-14 flex-col  gap-10 xl:gap-36 sm:flex-row sm:flex-wrap items-center justify-center'>
           {laProducts.map((product) => {
             return (
             <LAcard
