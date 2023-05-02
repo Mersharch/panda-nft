@@ -14,14 +14,15 @@ const Featured = () => {
     {'fName': 'Jacob Jones', 'fPrice': 214.2, 'fImg': `${artist4}`, }, {'fName': 'Ralph Edwards', 'fPrice': 214.2, 'fImg': `${artist5}`, }, {'fName': 'Arlene McCoy', 'fPrice': 214.2, 'fImg': `${artist6}`, },
   ]
   return (
-    <div className='mt-10 md:mt-20 w-[96.5%] px-5 flex flex-col items-center justify-center'>
+    <div className='mt-10 md:mt-20 w-[96.5%] px-5 flex flex-col items-center justify-center gap-3'>
         <div className=' px-8 w-full flex items-center justify-center lg:justify-between'>
             <h2>Featured Artists</h2>
             <button className='hover:text-lg duration-500 hidden lg:block'>Get Started</button>
         </div>
 
         {/* CARDS */}
-        <div className='gap-5 sm:grid sm:grid-cols-2 md:grid-cols-3 mt-4 xl:grid-cols-6 pt-6'>
+      <div className='w-[100%] gap-10 flex flex-row overflow-hidden whitespace-nowrap'>
+        <div className='gap-20 px-6 flex cards-slide'>
             {fcards.map(({fImg, fName, fPrice}) => {
               return(
                 <FAcard
@@ -31,6 +32,18 @@ const Featured = () => {
                 />
               )
             })}
+        </div>
+        <div className='gap-20 px-6 flex cards-slide'>
+            {fcards.map(({fImg, fName, fPrice}) => {
+              return(
+                <FAcard
+                  fImg={fImg}
+                  fName={fName}
+                  fPrice={fPrice}
+                />
+              )
+            })}
+        </div>
         </div>
         
         <button className='hover:text-lg duration-500 lg:hidden'>Get Started</button>

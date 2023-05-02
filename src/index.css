@@ -21,3 +21,19 @@ footer {
 background: linear-gradient(203deg, rgba(2,5,14,1) 60%, rgba(20,16,59,1) 100%);
 }
 
+@keyframes carousel {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.cards-slide {
+    animation: carousel 25s infinite linear;
+}
+
+.slider-con:hover .cards-slide {
+animation-play-state: paused;
+}

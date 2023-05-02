@@ -17,7 +17,7 @@ const Partners = () => {
             </li>
 
             <li>
-                <img src={trust} alt="" className='w-32 h-6' />
+                <img src={trust} alt="" className='w-32 h-9' />
             </li>
 
             <li>

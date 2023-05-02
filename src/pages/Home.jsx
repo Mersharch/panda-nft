@@ -27,7 +27,7 @@ const Home = () => {
     <div>
       {loading ? <Loader loading={loading}/>
         :
-        <div>
+        <div className='flex flex-col items-center'>
           <Hero/>
           <Partners/>
           <CnS/>
